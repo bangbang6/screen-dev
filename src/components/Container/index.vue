@@ -40,7 +40,6 @@ export default {
       //屏幕
       let screenWidth = document.body.clientWidth
       let screenHeight = document.body.clientHeight
-      console.log(screenWidth, screenHeight);
       //比例
       let xScale = screenWidth / +(dom.style.width.slice(0, -2))
       let yScale = screenHeight / +(dom.style.height.slice(0, -2))
